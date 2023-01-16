@@ -24,7 +24,7 @@ jobs:
           fi
     
     - name: Build the application
-      run: npm test
+      run: npm run test
           
     - name: Test the application
       run: ls -ltr
