@@ -24,9 +24,7 @@ jobs:
           fi
     
     - name: Build the application
-      run: | 
-          npm install -g @angular/cli
-          ng test
+      run: npm test
           
     - name: Test the application
       run: ls -ltr
